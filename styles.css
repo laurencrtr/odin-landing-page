@@ -65,3 +65,34 @@ button {
     height: auto;
     flex-shrink: 1;
 }
+
+.basic-centered {
+    display: flex;
+    color: black;
+    background-color: white;
+    padding: 25px;
+    justify-content: center;
+}
+
+.mid-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: white;
+    color: #1F2937;
+    gap: 20px;
+}
+
+.mid-2 img {
+    max-width: 150px;
+}
+
+.image-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
