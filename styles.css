@@ -38,6 +38,10 @@
 button {
     background-color: #3882F6;
     color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
 }
 
 .mid-1 {
@@ -86,6 +90,7 @@ button {
 
 .mid-2 img {
     max-width: 150px;
+    border-radius: 15px;
 }
 
 .image-text-box {
@@ -113,4 +118,41 @@ button {
 .author {
     display: flex;
     justify-content: flex-end;
+}
+
+.mid-4-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+}
+
+.mid-4-inner {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.mid-4-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mid-4-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-4-right button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    padding: 5px 10px;
+    border-radius: 15px;
 }
