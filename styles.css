@@ -1,0 +1,26 @@
+.header-box {
+    color: white;
+    background-color: #1F2937;
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+
+}
+
+.links-top {
+
+}
+
+.links-top ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
