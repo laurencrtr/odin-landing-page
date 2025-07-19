@@ -118,6 +118,7 @@ button {
 .author {
     display: flex;
     justify-content: flex-end;
+    font-weight: bold;
 }
 
 .mid-4-outer {
@@ -134,6 +135,7 @@ button {
     padding: 50px;
     gap: 20px;
     justify-content: space-around;
+    border-radius: 15px;
 }
 
 .mid-4-left {
@@ -155,4 +157,11 @@ button {
     border: solid 2px white;
     padding: 5px 10px;
     border-radius: 15px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 50px;
 }
