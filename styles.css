@@ -1,11 +1,17 @@
+* {
+    font-family: Roboto;
+    margin: 0;
+}
+
 .header-box {
     color: white;
     background-color: #1F2937;
-    font-family: Roboto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding:  25px 100px;
+    margin: 0;
+    gap: 20px;
 }
 
 .logo {
@@ -24,3 +30,38 @@
     gap: 15px;
 }
 
+.mid-box {
+    background-color: #1F2937;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.mid-1 {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding:  100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid-1-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mid-1-left button {
+    max-width: 75px;    
+}
+
+.mid-1-right img {
+    max-width: 500px;
+    min-width: none;
+    height: auto;
+    flex-shrink: 1;
+}
