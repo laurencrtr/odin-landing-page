@@ -165,4 +165,5 @@ button {
     justify-content: center;
     align-items: center;
     padding: 25px 50px;
+    gap: 10px;
 }
